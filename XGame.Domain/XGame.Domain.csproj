@@ -55,6 +55,7 @@
     <Compile Include="Enum\EnumStatusPlayer.cs" />
     <Compile Include="Interfaces\Arguments\IRequest.cs" />
     <Compile Include="Interfaces\Arguments\IResponse.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPlayer.cs" />
     <Compile Include="Interfaces\Services\IServicePlataform.cs" />
     <Compile Include="Interfaces\Services\IServicePlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,9 +63,7 @@
     <Compile Include="ValueObjects\Email.cs" />
     <Compile Include="ValueObjects\Name.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Diagram\XGame.cd" />
   </ItemGroup>
